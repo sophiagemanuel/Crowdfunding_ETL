@@ -50,3 +50,8 @@ CREATE TABLE "campaign" (
     CONSTRAINT "fk_campaign_category_id" foreign key (category_id) references category(category_id),
     CONSTRAINT "fk_campaign_subcategory_id" foreign key (subcategory_id) references subcategory(subcategory_id)
 );
+
+select * from contacts;
+select * from category;
+select * from subcategory;
+select * from campaign;
